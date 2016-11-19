@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green">#ff84a600</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="gray_character">#ffc1c1c1</color>   <!-- 字体的灰色 -->
+    <color name="gray_background">#ffdddddd</color>   <!-- 用于背景色的灰色 -->
+    <color name="red">#ffff6060</color>
+    <color name="gray_background_light">#fff3f3f3</color>   <!-- 用于背景色的浅灰色 -->
+    <color name="light_blue">#ffe2e2e2</color>        <!-- 第二栏的浅蓝色 -->
+    <color name="deep_blue">#ff5c8cb1</color> 			<!--第二栏的深蓝色  -->
+    <color name="deep_gray_for_line">#ff707f8e</color>  <!-- 用于细线 -->
+    <color name="black_char">#ff555555</color>
+    <color name="transparent">#00000000</color>
+    <color name="bantouming_black">#3f000000</color>
+</resources>

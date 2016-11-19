@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:staggered="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+<com.pinstame.view.SwipeRefreshAndLoadLayout
+            android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+    <com.origamilabs.library.views.StaggeredGridView
+        android:id="@+id/staggeredGridView1"
+        staggered:numColumns="2"
+        android:scrollbars="vertical"
+        staggered:drawSelectorOnTop="true"
+        android:scrollbarFadeDuration="1000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" /> 
+</com.pinstame.view.SwipeRefreshAndLoadLayout>
+
+</RelativeLayout>

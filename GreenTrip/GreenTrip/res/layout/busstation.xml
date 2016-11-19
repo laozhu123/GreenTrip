@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:background="@android:color/white"
+    android:alpha="0.5" >
+    <ImageView 
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/bus"
+        android:scaleType="fitXY"/>
+    <LinearLayout 
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <TextView 
+	        android:id="@+id/busname"
+	        android:gravity="center"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hello_world">
+	    </TextView>
+	    <TextView 
+	        android:id="@+id/busdetail"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:maxLines="2"
+		    android:text="@string/hello_world">
+	    </TextView>
+    </LinearLayout>
+</LinearLayout>

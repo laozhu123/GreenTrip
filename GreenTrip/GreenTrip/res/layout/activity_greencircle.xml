@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:staggered="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#77B943">  
+        <ImageView
+            android:id="@+id/back"
+            android:layout_margin="10dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="fill_parent"
+	        android:layout_alignParentLeft="true"
+	        android:src="@drawable/left"/>    
+        <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:gravity="center"
+	        android:textSize="22sp"
+	        android:text="绿出行圈"
+	        android:textColor="@android:color/white"/>        
+    </RelativeLayout>
+    <com.pinstame.view.SwipeRefreshAndLoadLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        
+    <com.origamilabs.library.views.StaggeredGridView
+        android:id="@+id/staggeredGridView1"
+        staggered:numColumns="2"
+        android:scrollbars="vertical"
+        staggered:drawSelectorOnTop="true"
+        android:scrollbarFadeDuration="1000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" /> 
+</com.pinstame.view.SwipeRefreshAndLoadLayout>
+</LinearLayout>
